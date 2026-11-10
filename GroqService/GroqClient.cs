@@ -53,7 +53,7 @@ public class GroqClient
         
         Response format:
                 
-        🌍 Original: "Original quote (if applicable)"
+        🌍 Original: "Original quote"
         
         ✍️ Source: Author / Movie / TV Show / Song / AI Generated
         

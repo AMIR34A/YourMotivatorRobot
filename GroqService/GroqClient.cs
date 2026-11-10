@@ -74,6 +74,7 @@ public class GroqClient
     public GroqClient(HttpClient httpClient)
     {
         _httpClient = httpClient;
+        _model = Environment.GetEnvironmentVariable("MODEL_NAME") ?? "openai/gpt-oss-120b";
 
         var apiKey = Environment.GetEnvironmentVariable("GROQ_API_KEY");
 
@@ -85,8 +86,6 @@ public class GroqClient
 
         _httpClient.DefaultRequestHeaders.Authorization =
             new AuthenticationHeaderValue("Bearer", apiKey);
-
-        _model = "llama-3.3-70b-versatile";
     }
 
     public async Task<string> GetResponseAsync(string prompt)

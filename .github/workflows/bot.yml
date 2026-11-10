@@ -31,3 +31,4 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           CHANNEL_CHAT_ID: ${{ secrets.CHANNEL_CHAT_ID }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          MODEL_NAME: ${{ secrets.MODEL_NAME }}

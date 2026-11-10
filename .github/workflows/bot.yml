@@ -26,7 +26,7 @@ jobs:
         run: dotnet build -c Release
 
       - name: Run Bot
-        run: dotnet run --project TelegramBot -c Release --no-build
+        run: dotnet run -c Release --no-build
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           CHANNEL_CHAT_ID: ${{ secrets.CHANNEL_CHAT_ID }}

@@ -52,9 +52,7 @@ public class GroqClient
           Use only very short excerpts or paraphrase their meaning.
         
         Response format:
-        
-        💡 «Quote in Persian»
-        
+                
         🌍 Original: "Original quote (if applicable)"
         
         ✍️ Source: Author / Movie / TV Show / Song / AI Generated

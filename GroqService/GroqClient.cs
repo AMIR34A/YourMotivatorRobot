@@ -54,7 +54,7 @@ public class GroqClient
 
         💡Your motivational quote here.
 
-        ✍️ Source: Author / Movie Title / TV Show Title / Song Title - Artist / AI Generated
+        ✍️Author / Movie Title / TV Show Title / Song Title - Artist / AI Generated
 
         Your goal is to make someone stop, think, and feel inspired.
     """;
